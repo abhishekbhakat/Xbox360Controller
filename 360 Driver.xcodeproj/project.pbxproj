@@ -82,6 +82,12 @@
 		622A73C31A7C339000784C02 /* MyWhole360ControllerMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 622A73C11A7C339000784C02 /* MyWhole360ControllerMapper.m */; };
 		622A73CE1A7C879300784C02 /* BindingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 622A73CC1A7C879300784C02 /* BindingTableView.h */; };
 		622A73CF1A7C879300784C02 /* BindingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622A73CD1A7C879300784C02 /* BindingTableView.m */; };
+		84272FDA293FDC5000362AAE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD9293FDC5000362AAE /* CoreFoundation.framework */; };
+		84272FDB293FDC5000362AAE /* CoreFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD9293FDC5000362AAE /* CoreFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84272FDF293FDCA500362AAE /* IOUSBHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD0293FBE9F00362AAE /* IOUSBHost.framework */; };
+		84272FE0293FDCA500362AAE /* IOUSBHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD0293FBE9F00362AAE /* IOUSBHost.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84272FE2293FDCA700362AAE /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCE293FBCDB00362AAE /* DriverKit.framework */; };
+		84272FE3293FDCA700362AAE /* DriverKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCE293FBCDB00362AAE /* DriverKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +166,29 @@
 				55F7E7C319D8C32000525388 /* DriverTool in Copy Tools */,
 			);
 			name = "Copy Tools";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84272FDC293FDC5000362AAE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84272FDB293FDC5000362AAE /* CoreFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84272FE1293FDCA500362AAE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84272FE0293FDCA500362AAE /* IOUSBHost.framework in Embed Frameworks */,
+				84272FE3293FDCA700362AAE /* DriverKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -258,6 +287,7 @@
 		84272FCA293FBCA300362AAE /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 		84272FCE293FBCDB00362AAE /* DriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DriverKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/DriverKit.framework; sourceTree = DEVELOPER_DIR; };
 		84272FD0293FBE9F00362AAE /* IOUSBHost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOUSBHost.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/IOUSBHost.framework; sourceTree = DEVELOPER_DIR; };
+		84272FD9293FDC5000362AAE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreFoundation.framework; sourceTree = "<group>"; };
 		96A383052223A4FA00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		96A383062223A4FA00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		96A383092223A4FB00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -286,6 +316,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84272FDF293FDCA500362AAE /* IOUSBHost.framework in Frameworks */,
+				84272FE2293FDCA700362AAE /* DriverKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +325,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84272FDA293FDC5000362AAE /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +464,7 @@
 		55B636B618C104DB00CE933D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84272FD9293FDC5000362AAE /* CoreFoundation.framework */,
 				84272FD0293FBE9F00362AAE /* IOUSBHost.framework */,
 				84272FCE293FBCDB00362AAE /* DriverKit.framework */,
 				84272FCA293FBCA300362AAE /* IOKit.framework */,
@@ -633,6 +667,7 @@
 				55B6370318C1057100CE933D /* Headers */,
 				55B6370418C1057100CE933D /* Resources */,
 				55B6375618C1099700CE933D /* Copy PlugIns */,
+				84272FE1293FDCA500362AAE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -651,6 +686,7 @@
 				55B6371B18C108A500CE933D /* Sources */,
 				55B6371C18C108A500CE933D /* Frameworks */,
 				55B6371D18C108A500CE933D /* Resources */,
+				84272FDC293FDC5000362AAE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1265,7 +1301,7 @@
 				EXPORTED_SYMBOLS_FILE = Feedback360/Feedback360.exp;
 				INFOPLIST_FILE = Feedback360/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
@@ -1287,6 +1323,7 @@
 				EXPORTED_SYMBOLS_FILE = Feedback360/Feedback360.exp;
 				INFOPLIST_FILE = Feedback360/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
