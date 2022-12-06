@@ -1634,8 +1634,9 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				EXPORTED_SYMBOLS_FILE = Feedback360/Feedback360.exp;
 				INFOPLIST_FILE = Feedback360/Info.plist;
@@ -1653,8 +1654,9 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				DEAD_CODE_STRIPPING = YES;
@@ -1856,6 +1858,7 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1873,6 +1876,7 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				FRAMEWORK_SEARCH_PATHS = (
