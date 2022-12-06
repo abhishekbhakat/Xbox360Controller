@@ -16,8 +16,6 @@
 				55B6383D18C10FA200CE933D /* PBXTargetDependency */,
 				55B6383F18C10FA200CE933D /* PBXTargetDependency */,
 				55B6384118C10FA200CE933D /* PBXTargetDependency */,
-				55B6384318C10FA200CE933D /* PBXTargetDependency */,
-				55B6384518C10FA200CE933D /* PBXTargetDependency */,
 			);
 			name = "Whole Driver";
 			productName = "Whole Driver";
@@ -40,7 +38,6 @@
 		55699CD61971D96E00C40A31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55699CD51971D96E00C40A31 /* Images.xcassets */; };
 		55699CD71971DA8100C40A31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55699CD51971D96E00C40A31 /* Images.xcassets */; };
 		55750C09190AFB5B0047FF41 /* DaemonLEDs.m in Sources */ = {isa = PBXBuildFile; fileRef = 55750C08190AFB5B0047FF41 /* DaemonLEDs.m */; };
-		5579514B1F7300EE001880D1 /* XBOBTFF.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5579513E1F73006F001880D1 /* XBOBTFF.plugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5579514C1F7301F9001880D1 /* FFDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 557951451F7300C9001880D1 /* FFDriver.cpp */; };
 		557951501F73037B001880D1 /* FeedbackXBOEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5579514E1F73037B001880D1 /* FeedbackXBOEffect.cpp */; };
 		55852E1F18D6B5580009BF55 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55852E2118D6B5580009BF55 /* Localizable.strings */; };
@@ -72,17 +69,6 @@
 		55B637D318C10CB400CE933D /* Alert.tif in Resources */ = {isa = PBXBuildFile; fileRef = 55B637CC18C10CB400CE933D /* Alert.tif */; };
 		55B637D518C10CB400CE933D /* ControlPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B637CF18C10CB400CE933D /* ControlPrefs.m */; };
 		55B637DD18C10CCC00CE933D /* ControlPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B637CF18C10CB400CE933D /* ControlPrefs.m */; };
-		55B6380018C10DA300CE933D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B637F718C10DA300CE933D /* InfoPlist.strings */; };
-		55B6380318C10DA300CE933D /* Wireless360Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55B637FB18C10DA300CE933D /* Wireless360Controller.cpp */; };
-		55B6380418C10DA300CE933D /* Wireless360Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B637FC18C10DA300CE933D /* Wireless360Controller.h */; };
-		55B6382B18C10EBE00CE933D /* devices.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B6381D18C10EBE00CE933D /* devices.h */; };
-		55B6382C18C10EBE00CE933D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B6381E18C10EBE00CE933D /* InfoPlist.strings */; };
-		55B6382F18C10EBE00CE933D /* WirelessDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55B6382218C10EBE00CE933D /* WirelessDevice.cpp */; };
-		55B6383018C10EBE00CE933D /* WirelessDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B6382318C10EBE00CE933D /* WirelessDevice.h */; };
-		55B6383118C10EBE00CE933D /* WirelessGamingReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55B6382418C10EBE00CE933D /* WirelessGamingReceiver.cpp */; };
-		55B6383218C10EBE00CE933D /* WirelessGamingReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B6382518C10EBE00CE933D /* WirelessGamingReceiver.h */; };
-		55B6383318C10EBE00CE933D /* WirelessHIDDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55B6382918C10EBE00CE933D /* WirelessHIDDevice.cpp */; };
-		55B6383418C10EBE00CE933D /* WirelessHIDDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B6382A18C10EBE00CE933D /* WirelessHIDDevice.h */; };
 		55F7E7C319D8C32000525388 /* DriverTool in Copy Tools */ = {isa = PBXBuildFile; fileRef = 55B6376018C10A3200CE933D /* DriverTool */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		55FE3CAB18D7B78D00D69E84 /* testhaptic.c in Sources */ = {isa = PBXBuildFile; fileRef = 55B6373918C108D200CE933D /* testhaptic.c */; };
 		5B943BE11A83EC6600E77A79 /* MyAnalogStick.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B943BDF1A83EC6600E77A79 /* MyAnalogStick.h */; };
@@ -96,24 +82,9 @@
 		622A73C31A7C339000784C02 /* MyWhole360ControllerMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 622A73C11A7C339000784C02 /* MyWhole360ControllerMapper.m */; };
 		622A73CE1A7C879300784C02 /* BindingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 622A73CC1A7C879300784C02 /* BindingTableView.h */; };
 		622A73CF1A7C879300784C02 /* BindingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622A73CD1A7C879300784C02 /* BindingTableView.m */; };
-		84272FC7293FBC9800362AAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FC5293FBC8C00362AAE /* Cocoa.framework */; };
-		84272FC8293FBC9800362AAE /* Cocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FC5293FBC8C00362AAE /* Cocoa.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		84272FCC293FBCA500362AAE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCA293FBCA300362AAE /* IOKit.framework */; };
-		84272FCD293FBCA500362AAE /* IOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCA293FBCA300362AAE /* IOKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		84272FD2293FBEA200362AAE /* IOUSBHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD0293FBE9F00362AAE /* IOUSBHost.framework */; };
-		84272FD3293FBEA200362AAE /* IOUSBHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD0293FBE9F00362AAE /* IOUSBHost.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		84272FD4293FBEA300362AAE /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCE293FBCDB00362AAE /* DriverKit.framework */; };
-		84272FD5293FBEA300362AAE /* DriverKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCE293FBCDB00362AAE /* DriverKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		557951491F7300E4001880D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55B636AC18C104DB00CE933D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5579513D1F73006F001880D1;
-			remoteInfo = XBOBTFF;
-		};
 		55B6374D18C1097D00CE933D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55B636AC18C104DB00CE933D /* Project object */;
@@ -149,20 +120,6 @@
 			remoteGlobalIDString = 55B6377C18C10B0B00CE933D;
 			remoteInfo = Pref360Control;
 		};
-		55B6384218C10FA200CE933D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55B636AC18C104DB00CE933D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55B637E718C10D5000CE933D;
-			remoteInfo = Wireless360Controller;
-		};
-		55B6384418C10FA200CE933D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55B636AC18C104DB00CE933D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55B6380D18C10E8700CE933D;
-			remoteInfo = WirelessGamingReceiver;
-		};
 		55DA7C6C1926BED3002F6A3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55B636AC18C104DB00CE933D /* Project object */;
@@ -173,16 +130,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		557951481F7300DC001880D1 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				5579514B1F7300EE001880D1 /* XBOBTFF.plugin in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55A2B8DC18C11A21006829A2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
@@ -213,20 +160,6 @@
 				55F7E7C319D8C32000525388 /* DriverTool in Copy Tools */,
 			);
 			name = "Copy Tools";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84272FC9293FBC9800362AAE /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				84272FC8293FBC9800362AAE /* Cocoa.framework in Embed Frameworks */,
-				84272FD3293FBEA200362AAE /* IOUSBHost.framework in Embed Frameworks */,
-				84272FCD293FBCA500362AAE /* IOKit.framework in Embed Frameworks */,
-				84272FD5293FBEA300362AAE /* DriverKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -261,8 +194,6 @@
 		5579514F1F73037B001880D1 /* FeedbackXBOEffect.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FeedbackXBOEffect.hpp; sourceTree = "<group>"; };
 		55852E2018D6B5580009BF55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		55A2B8DB18C116E2006829A2 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		55ACBFE01D5B9E2E00E4F677 /* XboxOneBluetooth.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XboxOneBluetooth.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		55ACBFE41D5B9E2F00E4F677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B13FC018C51DD400ACD9AC /* Feedback360.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = Feedback360.exp; sourceTree = "<group>"; };
 		55B636B418C104DB00CE933D /* 360Daemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360Daemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B636BF18C104DB00CE933D /* 360DaemonApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "360DaemonApp-Info.plist"; sourceTree = "<group>"; };
@@ -307,21 +238,10 @@
 		55B637CD18C10CB400CE933D /* com.mice.360Daemon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.mice.360Daemon.plist; sourceTree = "<group>"; };
 		55B637CE18C10CB400CE933D /* ControlPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlPrefs.h; sourceTree = "<group>"; };
 		55B637CF18C10CB400CE933D /* ControlPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlPrefs.m; sourceTree = "<group>"; };
-		55B637E818C10D5000CE933D /* Wireless360Controller.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wireless360Controller.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B637F818C10DA300CE933D /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55B637F918C10DA300CE933D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B637FB18C10DA300CE933D /* Wireless360Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wireless360Controller.cpp; sourceTree = "<group>"; };
 		55B637FC18C10DA300CE933D /* Wireless360Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wireless360Controller.h; sourceTree = "<group>"; };
-		55B6380E18C10E8700CE933D /* WirelessGamingReceiver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirelessGamingReceiver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		55B6381D18C10EBE00CE933D /* devices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = devices.h; sourceTree = "<group>"; };
-		55B6381F18C10EBE00CE933D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55B6382018C10EBE00CE933D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55B6382218C10EBE00CE933D /* WirelessDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WirelessDevice.cpp; sourceTree = "<group>"; };
-		55B6382318C10EBE00CE933D /* WirelessDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WirelessDevice.h; sourceTree = "<group>"; };
-		55B6382418C10EBE00CE933D /* WirelessGamingReceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WirelessGamingReceiver.cpp; sourceTree = "<group>"; };
-		55B6382518C10EBE00CE933D /* WirelessGamingReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WirelessGamingReceiver.h; sourceTree = "<group>"; };
-		55B6382918C10EBE00CE933D /* WirelessHIDDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WirelessHIDDevice.cpp; sourceTree = "<group>"; };
-		55B6382A18C10EBE00CE933D /* WirelessHIDDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WirelessHIDDevice.h; sourceTree = "<group>"; };
 		55E1C62819708E7300EC9DD8 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = SOURCE_ROOT; };
 		55E1C62919708E7300EC9DD8 /* clean.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = clean.sh; sourceTree = SOURCE_ROOT; };
 		55E1C62A19708F8600EC9DD8 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
@@ -345,7 +265,6 @@
 		96A383052223A4FA00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		96A383062223A4FA00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		96A383072223A4FA00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		96A383082223A4FB00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		96A383092223A4FB00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		96A3830A2223A4FB00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		96A3830C2223A4FB00A27767 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -393,24 +312,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55B637E318C10D5000CE933D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55B6380918C10E8700CE933D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84272FC7293FBC9800362AAE /* Cocoa.framework in Frameworks */,
-				84272FCC293FBCA500362AAE /* IOKit.framework in Frameworks */,
-				84272FD2293FBEA200362AAE /* IOUSBHost.framework in Frameworks */,
-				84272FD4293FBEA300362AAE /* DriverKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,35 +412,16 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		55A2B8E418C11DC5006829A2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				55B6381E18C10EBE00CE933D /* InfoPlist.strings */,
-				55B6382018C10EBE00CE933D /* Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		55ACBFE11D5B9E2E00E4F677 /* XboxOneBluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				55ACBFE41D5B9E2F00E4F677 /* Info.plist */,
-			);
-			path = XboxOneBluetooth;
-			sourceTree = "<group>";
-		};
 		55B636AB18C104DB00CE933D = {
 			isa = PBXGroup;
 			children = (
 				55B6372C18C108D200CE933D /* Feedback360 */,
 				55B636EB18C1054F00CE933D /* 360Controller */,
 				55B637F618C10DA300CE933D /* Wireless360Controller */,
-				55B6381C18C10EBE00CE933D /* WirelessGamingReceiver */,
 				55B636BD18C104DB00CE933D /* 360Daemon */,
 				55B6376A18C10A5400CE933D /* DriverTool */,
 				55B6378118C10B0B00CE933D /* Pref360Control */,
 				551CDFFE196EFD0A000869B6 /* Distribution */,
-				55ACBFE11D5B9E2E00E4F677 /* XboxOneBluetooth */,
 				5579513F1F73006F001880D1 /* XBOBTFF */,
 				55B636B618C104DB00CE933D /* Frameworks */,
 				55B636B518C104DB00CE933D /* Products */,
@@ -555,10 +437,7 @@
 				55B6371F18C108A500CE933D /* Feedback360.plugin */,
 				55B6376018C10A3200CE933D /* DriverTool */,
 				55B6377D18C10B0B00CE933D /* Pref360Control.prefPane */,
-				55B637E818C10D5000CE933D /* Wireless360Controller.kext */,
-				55B6380E18C10E8700CE933D /* WirelessGamingReceiver.kext */,
 				55FE3CA118D7B77800D69E84 /* testhaptic */,
-				55ACBFE01D5B9E2E00E4F677 /* XboxOneBluetooth.kext */,
 				5579513E1F73006F001880D1 /* XBOBTFF.plugin */,
 			);
 			name = Products;
@@ -697,31 +576,9 @@
 			path = Wireless360Controller;
 			sourceTree = "<group>";
 		};
-		55B6381C18C10EBE00CE933D /* WirelessGamingReceiver */ = {
-			isa = PBXGroup;
-			children = (
-				55B6381D18C10EBE00CE933D /* devices.h */,
-				55B6382318C10EBE00CE933D /* WirelessDevice.h */,
-				55B6382218C10EBE00CE933D /* WirelessDevice.cpp */,
-				55B6382518C10EBE00CE933D /* WirelessGamingReceiver.h */,
-				55B6382418C10EBE00CE933D /* WirelessGamingReceiver.cpp */,
-				55B6382A18C10EBE00CE933D /* WirelessHIDDevice.h */,
-				55B6382918C10EBE00CE933D /* WirelessHIDDevice.cpp */,
-				55A2B8E418C11DC5006829A2 /* Resources */,
-			);
-			path = WirelessGamingReceiver;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		55ACBFDD1D5B9E2E00E4F677 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55B6370318C1057100CE933D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -754,25 +611,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55B637E418C10D5000CE933D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55B6380418C10DA300CE933D /* Wireless360Controller.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55B6380A18C10E8700CE933D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55B6383418C10EBE00CE933D /* WirelessHIDDevice.h in Headers */,
-				55B6383018C10EBE00CE933D /* WirelessDevice.h in Headers */,
-				55B6383218C10EBE00CE933D /* WirelessGamingReceiver.h in Headers */,
-				55B6382B18C10EBE00CE933D /* devices.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -792,24 +630,6 @@
 			productName = XBOBTFF;
 			productReference = 5579513E1F73006F001880D1 /* XBOBTFF.plugin */;
 			productType = "com.apple.product-type.bundle";
-		};
-		55ACBFDF1D5B9E2E00E4F677 /* XboxOneBluetooth */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55ACBFE71D5B9E2F00E4F677 /* Build configuration list for PBXNativeTarget "XboxOneBluetooth" */;
-			buildPhases = (
-				55ACBFDD1D5B9E2E00E4F677 /* Headers */,
-				55ACBFDE1D5B9E2E00E4F677 /* Resources */,
-				557951481F7300DC001880D1 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5579514A1F7300E4001880D1 /* PBXTargetDependency */,
-			);
-			name = XboxOneBluetooth;
-			productName = XboxOneBluetooth;
-			productReference = 55ACBFE01D5B9E2E00E4F677 /* XboxOneBluetooth.kext */;
-			productType = "com.apple.product-type.kernel-extension";
 		};
 		55B636B318C104DB00CE933D /* 360Daemon */ = {
 			isa = PBXNativeTarget;
@@ -902,43 +722,6 @@
 			productReference = 55B6377D18C10B0B00CE933D /* Pref360Control.prefPane */;
 			productType = "com.apple.product-type.bundle";
 		};
-		55B637E718C10D5000CE933D /* Wireless360Controller */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55B637F318C10D5000CE933D /* Build configuration list for PBXNativeTarget "Wireless360Controller" */;
-			buildPhases = (
-				55B637E218C10D5000CE933D /* Sources */,
-				55B637E318C10D5000CE933D /* Frameworks */,
-				55B637E418C10D5000CE933D /* Headers */,
-				55B637E518C10D5000CE933D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Wireless360Controller;
-			productName = Wireless360Controller2;
-			productReference = 55B637E818C10D5000CE933D /* Wireless360Controller.kext */;
-			productType = "com.apple.product-type.kernel-extension";
-		};
-		55B6380D18C10E8700CE933D /* WirelessGamingReceiver */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55B6381918C10E9500CE933D /* Build configuration list for PBXNativeTarget "WirelessGamingReceiver" */;
-			buildPhases = (
-				55B6380818C10E8700CE933D /* Sources */,
-				55B6380918C10E8700CE933D /* Frameworks */,
-				55B6380A18C10E8700CE933D /* Headers */,
-				55B6380B18C10E8700CE933D /* Resources */,
-				84272FC9293FBC9800362AAE /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WirelessGamingReceiver;
-			productName = WirelessGamingReceiver2;
-			productReference = 55B6380E18C10E8700CE933D /* WirelessGamingReceiver.kext */;
-			productType = "com.apple.product-type.kernel-extension";
-		};
 		55FE3CA018D7B77800D69E84 /* testhaptic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FE3CAA18D7B77800D69E84 /* Build configuration list for PBXNativeTarget "testhaptic" */;
@@ -970,11 +753,6 @@
 						DevelopmentTeam = G947KKM5RL;
 						ProvisioningStyle = Manual;
 					};
-					55ACBFDF1D5B9E2E00E4F677 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = G947KKM5RL;
-						ProvisioningStyle = Manual;
-					};
 					55B636B318C104DB00CE933D = {
 						DevelopmentTeam = G947KKM5RL;
 						ProvisioningStyle = Manual;
@@ -994,13 +772,6 @@
 					55B6377C18C10B0B00CE933D = {
 						DevelopmentTeam = G947KKM5RL;
 						ProvisioningStyle = Manual;
-					};
-					55B637E718C10D5000CE933D = {
-						DevelopmentTeam = G947KKM5RL;
-						ProvisioningStyle = Manual;
-					};
-					55B6380D18C10E8700CE933D = {
-						ProvisioningStyle = Automatic;
 					};
 					55B6383818C10F8E00CE933D = {
 						DevelopmentTeam = G947KKM5RL;
@@ -1033,10 +804,7 @@
 				55B6371E18C108A500CE933D /* Feedback360 */,
 				55B6377C18C10B0B00CE933D /* Pref360Control */,
 				55B6370618C1057100CE933D /* 360Controller */,
-				55B637E718C10D5000CE933D /* Wireless360Controller */,
-				55B6380D18C10E8700CE933D /* WirelessGamingReceiver */,
 				5579513D1F73006F001880D1 /* XBOBTFF */,
-				55ACBFDF1D5B9E2E00E4F677 /* XboxOneBluetooth */,
 				55FE3CA018D7B77800D69E84 /* testhaptic */,
 			);
 		};
@@ -1044,13 +812,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		5579513C1F73006F001880D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55ACBFDE1D5B9E2E00E4F677 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1094,22 +855,6 @@
 				55B637C018C10C2400CE933D /* pref360controlpref.tiff in Resources */,
 				55852E1F18D6B5580009BF55 /* Localizable.strings in Resources */,
 				551CDFF9196EEE76000869B6 /* Pref360ControlPref.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55B637E518C10D5000CE933D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55B6380018C10DA300CE933D /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55B6380B18C10E8700CE933D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55B6382C18C10EBE00CE933D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1183,24 +928,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55B637E218C10D5000CE933D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55B6380318C10DA300CE933D /* Wireless360Controller.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55B6380818C10E8700CE933D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55B6383318C10EBE00CE933D /* WirelessHIDDevice.cpp in Sources */,
-				55B6382F18C10EBE00CE933D /* WirelessDevice.cpp in Sources */,
-				55B6383118C10EBE00CE933D /* WirelessGamingReceiver.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55FE3C9D18D7B77800D69E84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1212,11 +939,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5579514A1F7300E4001880D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5579513D1F73006F001880D1 /* XBOBTFF */;
-			targetProxy = 557951491F7300E4001880D1 /* PBXContainerItemProxy */;
-		};
 		55B6374E18C1097D00CE933D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 55B6371E18C108A500CE933D /* Feedback360 */;
@@ -1241,16 +963,6 @@
 			isa = PBXTargetDependency;
 			target = 55B6377C18C10B0B00CE933D /* Pref360Control */;
 			targetProxy = 55B6384018C10FA200CE933D /* PBXContainerItemProxy */;
-		};
-		55B6384318C10FA200CE933D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55B637E718C10D5000CE933D /* Wireless360Controller */;
-			targetProxy = 55B6384218C10FA200CE933D /* PBXContainerItemProxy */;
-		};
-		55B6384518C10FA200CE933D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55B6380D18C10E8700CE933D /* WirelessGamingReceiver */;
-			targetProxy = 55B6384418C10FA200CE933D /* PBXContainerItemProxy */;
 		};
 		55DA7C6D1926BED3002F6A3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1332,15 +1044,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		55B6381E18C10EBE00CE933D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55B6381F18C10EBE00CE933D /* English */,
-				96A383082223A4FB00A27767 /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1410,55 +1113,6 @@
 				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
-			};
-			name = Release;
-		};
-		55ACBFE51D5B9E2F00E4F677 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = XboxOneBluetooth/Info.plist;
-				MODULE_NAME = com.mice.driver.XboxOneBluetooth;
-				MODULE_START = XboxOneBluetooth_start;
-				MODULE_STOP = XboxOneBluetooth_stop;
-				MODULE_VERSION = 1.0.0d1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mice.driver.XboxOneBluetooth;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
-				WRAPPER_EXTENSION = kext;
-			};
-			name = Debug;
-		};
-		55ACBFE61D5B9E2F00E4F677 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
-				CODE_SIGN_STYLE = Manual;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = XboxOneBluetooth/Info.plist;
-				MODULE_NAME = com.mice.driver.XboxOneBluetooth;
-				MODULE_START = XboxOneBluetooth_start;
-				MODULE_STOP = XboxOneBluetooth_stop;
-				MODULE_VERSION = 1.0.0d1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mice.driver.XboxOneBluetooth;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
-				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
 		};
@@ -1565,6 +1219,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = 360Control;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Manual;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1583,6 +1238,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = 360Control;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				DEAD_CODE_STRIPPING = YES;
@@ -1602,6 +1258,7 @@
 			buildSettings = {
 				"CLANG_CXX_LANGUAGE_STANDARD[arch=i386]" = "compiler-default";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = 360Controller/Info.plist;
 				MODULE_NAME = com.mice.driver.Xbox360Controller;
@@ -1618,6 +1275,7 @@
 			buildSettings = {
 				"CLANG_CXX_LANGUAGE_STANDARD[arch=i386]" = "compiler-default";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = 360Controller/Info.plist;
@@ -1634,8 +1292,9 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				EXPORTED_SYMBOLS_FILE = Feedback360/Feedback360.exp;
 				INFOPLIST_FILE = Feedback360/Info.plist;
@@ -1653,8 +1312,9 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				DEAD_CODE_STRIPPING = YES;
@@ -1673,6 +1333,7 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Manual;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
@@ -1691,6 +1352,7 @@
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
@@ -1711,6 +1373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = 360Control;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = /;
@@ -1734,6 +1397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = 360Control;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				DEAD_CODE_STRIPPING = YES;
@@ -1750,80 +1414,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = prefPane;
-			};
-			name = Release;
-		};
-		55B637F418C10D5000CE933D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
-			buildSettings = {
-				"CLANG_CXX_LANGUAGE_STANDARD[arch=i386]" = "compiler-default";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
-				INFOPLIST_FILE = Wireless360Controller/Info.plist;
-				MODULE_NAME = com.mice.driver.Wireless360Controller;
-				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
-				WRAPPER_EXTENSION = kext;
-			};
-			name = Debug;
-		};
-		55B637F518C10D5000CE933D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
-			buildSettings = {
-				"CLANG_CXX_LANGUAGE_STANDARD[arch=i386]" = "compiler-default";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
-				CODE_SIGN_STYLE = Manual;
-				INFOPLIST_FILE = Wireless360Controller/Info.plist;
-				MODULE_NAME = com.mice.driver.Wireless360Controller;
-				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
-				WRAPPER_EXTENSION = kext;
-			};
-			name = Release;
-		};
-		55B6381A18C10E9500CE933D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
-			buildSettings = {
-				"CLANG_CXX_LANGUAGE_STANDARD[arch=i386]" = "compiler-default";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = WirelessGamingReceiver/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MODULE_NAME = com.mice.driver.WirelessGamingReceiver;
-				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx13.0;
-				WRAPPER_EXTENSION = kext;
-			};
-			name = Debug;
-		};
-		55B6381B18C10E9500CE933D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
-			buildSettings = {
-				"CLANG_CXX_LANGUAGE_STANDARD[arch=i386]" = "compiler-default";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = WirelessGamingReceiver/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MODULE_NAME = com.mice.driver.WirelessGamingReceiver;
-				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx13.0;
-				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
 		};
@@ -1898,15 +1488,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55ACBFE71D5B9E2F00E4F677 /* Build configuration list for PBXNativeTarget "XboxOneBluetooth" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55ACBFE51D5B9E2F00E4F677 /* Debug */,
-				55ACBFE61D5B9E2F00E4F677 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		55B636AF18C104DB00CE933D /* Build configuration list for PBXProject "360 Driver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1957,24 +1538,6 @@
 			buildConfigurations = (
 				55B6379118C10B0B00CE933D /* Debug */,
 				55B6379218C10B0B00CE933D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55B637F318C10D5000CE933D /* Build configuration list for PBXNativeTarget "Wireless360Controller" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55B637F418C10D5000CE933D /* Debug */,
-				55B637F518C10D5000CE933D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55B6381918C10E9500CE933D /* Build configuration list for PBXNativeTarget "WirelessGamingReceiver" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55B6381A18C10E9500CE933D /* Debug */,
-				55B6381B18C10E9500CE933D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
