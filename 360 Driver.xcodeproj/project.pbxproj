@@ -1348,7 +1348,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1372,7 +1372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mice.driver.XBOBTFF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -1382,7 +1382,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62DD3D4920C044980073EC19 /* DeveloperSettings.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1407,7 +1407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mice.driver.XBOBTFF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -1432,7 +1432,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mice.driver.XboxOneBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -1457,7 +1457,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mice.driver.XboxOneBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -1502,7 +1502,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MIN_MACOS_VERSION = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = (
@@ -1545,7 +1545,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MIN_MACOS_VERSION = 10.11;
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				STRINGS_FILE_OUTPUT_ENCODING = binary;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = (
@@ -1572,7 +1572,7 @@
 				INFOPLIST_FILE = "360Daemon/360DaemonApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MICE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1591,7 +1591,7 @@
 				INFOPLIST_FILE = "360Daemon/360DaemonApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MICE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1607,7 +1607,7 @@
 				MODULE_NAME = com.mice.driver.Xbox360Controller;
 				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -1624,7 +1624,7 @@
 				MODULE_NAME = com.mice.driver.Xbox360Controller;
 				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -1642,7 +1642,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -1662,7 +1662,7 @@
 				INFOPLIST_FILE = Feedback360/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -1681,7 +1681,7 @@
 				INFOPLIST_FILE = DriverTool/Info.plist;
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1700,7 +1700,7 @@
 				INFOPLIST_FILE = DriverTool/Info.plist;
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1723,7 +1723,7 @@
 				INFOPLIST_FILE = Pref360Control/Info.plist;
 				INSTALL_PATH = "${LOCAL_LIBRARY_DIR}/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -1748,7 +1748,7 @@
 				INFOPLIST_FILE = Pref360Control/Info.plist;
 				INSTALL_PATH = "${LOCAL_LIBRARY_DIR}/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
@@ -1764,7 +1764,7 @@
 				MODULE_NAME = com.mice.driver.Wireless360Controller;
 				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -1781,7 +1781,7 @@
 				MODULE_NAME = com.mice.driver.Wireless360Controller;
 				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -1835,7 +1835,7 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Manual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 			};
 			name = Debug;
 		};
@@ -1847,7 +1847,7 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 			};
 			name = Release;
 		};
@@ -1864,7 +1864,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 			};
 			name = Debug;
 		};
@@ -1882,7 +1882,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx13.0;
 			};
 			name = Release;
 		};
