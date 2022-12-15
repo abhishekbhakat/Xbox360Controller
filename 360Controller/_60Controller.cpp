@@ -21,6 +21,7 @@
  along with Foobar; if not, write to the Free Software
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
+#include <USBDriverKit/IOUSBHostPipe.h>
 #include <IOKit/IOLib.h>
 #include <IOKit/IOMessage.h>
 #include <IOKit/IOTimerEventSource.h>
@@ -52,7 +53,7 @@ public:
 };
 
 // Find the maximum packet size of this pipe
-static UInt32 GetMaxPacketSize(IOUSBPipe *pipe)
+static UInt32 GetMaxPacketSize(IOUSBHostPipe *pipe)
 {
     const IOUSBEndpointDescriptor *ed = pipe->GetEndpointDescriptor();
 

@@ -23,6 +23,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0AC77D57294BAD87000C4507 /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC77D56294BAD87000C4507 /* DriverKit.framework */; };
+		0AC77D59294BAD9A000C4507 /* IOUSBHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC77D58294BAD9A000C4507 /* IOUSBHost.framework */; };
 		3F9B7C0A1A729C1600149949 /* artworks.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B7C091A729C1600149949 /* artworks.xcassets */; };
 		3FE789A01A701F3400FF4065 /* Pref360StyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE7899E1A701F3400FF4065 /* Pref360StyleKit.h */; };
 		3FE789A11A701F3400FF4065 /* Pref360StyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7899F1A701F3400FF4065 /* Pref360StyleKit.m */; };
@@ -84,8 +86,6 @@
 		622A73CF1A7C879300784C02 /* BindingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622A73CD1A7C879300784C02 /* BindingTableView.m */; };
 		84272FDA293FDC5000362AAE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD9293FDC5000362AAE /* CoreFoundation.framework */; };
 		84272FDB293FDC5000362AAE /* CoreFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD9293FDC5000362AAE /* CoreFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		84272FDF293FDCA500362AAE /* IOUSBHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD0293FBE9F00362AAE /* IOUSBHost.framework */; };
-		84272FE0293FDCA500362AAE /* IOUSBHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FD0293FBE9F00362AAE /* IOUSBHost.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84272FE2293FDCA700362AAE /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCE293FBCDB00362AAE /* DriverKit.framework */; };
 		84272FE3293FDCA700362AAE /* DriverKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84272FCE293FBCDB00362AAE /* DriverKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -185,7 +185,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				84272FE0293FDCA500362AAE /* IOUSBHost.framework in Embed Frameworks */,
 				84272FE3293FDCA700362AAE /* DriverKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -194,6 +193,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0AC77D56294BAD87000C4507 /* DriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DriverKit.framework; path = System/Library/Frameworks/DriverKit.framework; sourceTree = SDKROOT; };
+		0AC77D58294BAD9A000C4507 /* IOUSBHost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOUSBHost.framework; path = System/Library/Frameworks/IOUSBHost.framework; sourceTree = SDKROOT; };
 		3F9B7C091A729C1600149949 /* artworks.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = artworks.xcassets; path = Resources/artworks.xcassets; sourceTree = "<group>"; };
 		3FE7899E1A701F3400FF4065 /* Pref360StyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pref360StyleKit.h; sourceTree = "<group>"; };
 		3FE7899F1A701F3400FF4065 /* Pref360StyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pref360StyleKit.m; sourceTree = "<group>"; };
@@ -316,7 +317,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84272FDF293FDCA500362AAE /* IOUSBHost.framework in Frameworks */,
+				0AC77D57294BAD87000C4507 /* DriverKit.framework in Frameworks */,
+				0AC77D59294BAD9A000C4507 /* IOUSBHost.framework in Frameworks */,
 				84272FE2293FDCA700362AAE /* DriverKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +466,8 @@
 		55B636B618C104DB00CE933D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AC77D58294BAD9A000C4507 /* IOUSBHost.framework */,
+				0AC77D56294BAD87000C4507 /* DriverKit.framework */,
 				84272FD9293FDC5000362AAE /* CoreFoundation.framework */,
 				84272FD0293FBE9F00362AAE /* IOUSBHost.framework */,
 				84272FCE293FBCDB00362AAE /* DriverKit.framework */,
@@ -1158,7 +1162,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MIN_MACOS_VERSION = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				STRIP_INSTALLED_PRODUCT = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = (
@@ -1201,7 +1205,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MIN_MACOS_VERSION = 10.11;
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				STRINGS_FILE_OUTPUT_ENCODING = binary;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = (
@@ -1229,7 +1233,7 @@
 				INFOPLIST_FILE = "360Daemon/360DaemonApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MICE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1249,7 +1253,7 @@
 				INFOPLIST_FILE = "360Daemon/360DaemonApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MICE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1266,7 +1270,7 @@
 				MODULE_NAME = com.mice.driver.Xbox360Controller;
 				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -1284,7 +1288,7 @@
 				MODULE_NAME = com.mice.driver.Xbox360Controller;
 				MODULE_VERSION = "${CURRENT_PROJECT_VERSION}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -1301,9 +1305,10 @@
 				EXPORTED_SYMBOLS_FILE = Feedback360/Feedback360.exp;
 				INFOPLIST_FILE = Feedback360/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -1323,9 +1328,10 @@
 				EXPORTED_SYMBOLS_FILE = Feedback360/Feedback360.exp;
 				INFOPLIST_FILE = Feedback360/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -1345,7 +1351,7 @@
 				INFOPLIST_FILE = DriverTool/Info.plist;
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1365,7 +1371,7 @@
 				INFOPLIST_FILE = DriverTool/Info.plist;
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1389,7 +1395,7 @@
 				INFOPLIST_FILE = Pref360Control/Info.plist;
 				INSTALL_PATH = "${LOCAL_LIBRARY_DIR}/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -1415,7 +1421,7 @@
 				INFOPLIST_FILE = Pref360Control/Info.plist;
 				INSTALL_PATH = "${LOCAL_LIBRARY_DIR}/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
@@ -1428,7 +1434,7 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Manual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 			};
 			name = Debug;
 		};
@@ -1440,7 +1446,7 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx13.0;
+				SDKROOT = macosx13.1;
 			};
 			name = Release;
 		};

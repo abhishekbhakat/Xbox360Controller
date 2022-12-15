@@ -21,8 +21,8 @@
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#include <IOKit/usb/IOUSBDevice.h>
-#include <IOKit/usb/IOUSBInterface.h>
+#include <USBDriverKit/IOUSBHostDevice.h>
+#include <USBDriverKit/IOUSBHostInterface.h>
 #include "Controller.h"
 namespace HID_360 {
 #include "xbox360hid.h"
@@ -42,7 +42,7 @@ static Xbox360Peripheral* GetOwner(IOService *us)
 	return OSDynamicCast(Xbox360Peripheral, prov);
 }
 
-static IOUSBDevice* GetOwnerProvider(const IOService *us)
+static IOUSBHostDevice* GetOwnerProvider(const IOService *us)
 {
 	IOService *prov = us->getProvider(), *provprov;
 
@@ -51,7 +51,7 @@ static IOUSBDevice* GetOwnerProvider(const IOService *us)
 	provprov = prov->getProvider();
 	if (provprov == NULL)
 		return NULL;
-	return OSDynamicCast(IOUSBDevice, provprov);
+	return OSDynamicCast(IOUSBHostDevice, provprov);
 }
 
 bool Xbox360ControllerClass::start(IOService *provider)
@@ -204,7 +204,7 @@ OSNumber* Xbox360ControllerClass::newVendorIDNumber() const
 
 OSNumber* Xbox360ControllerClass::newLocationIDNumber() const
 {
-	IOUSBDevice *device;
+	IOUSBHostDevice *device;
     OSNumber *number;
     UInt32 location = 0;
 
